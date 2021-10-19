@@ -1,0 +1,17 @@
+{
+  "name": "nxxxndobot",
+  "version": "0.0.0",
+  "description": "Nandos shitty bot",
+  "main": "src",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mikoh",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "esm": "^3.2.25",
+    "tmi.js": "^1.8.5"
+  }
+}
