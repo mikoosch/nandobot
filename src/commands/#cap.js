@@ -2,17 +2,17 @@ const { client } = require("tmi.js")
 
 exports.run = (client, message, args, user, channel, self) => {
     const phrases = [
-        "That's fucking :billed_cap: my guy",
-        "That's fucking :billed_cap: my guy",
-        "That's fucking :billed_cap: my guy",
-        "That's fucking :billed_cap: my guy",
-        "That's fucking :billed_cap: my guy",
-        "I aint never seen anybody :billed_cap: this much",
-        "That's straight fax :100:",
-        "That's straight fax :100:",
-        "That's straight fax :100:"
+        "fucking :billed_cap: my guy",
+        "fucking :billed_cap: my guy",
+        "fucking :billed_cap: my guy",
+        "fucking :billed_cap: my guy",
+        "fucking :billed_cap: my guy",
+        "probably the biggest :billed_cap: ever",
+        "straight fax :100:",
+        "straight fax :100:",
+        "straight fax :100:"
     ]
 
     const random = Math.floor(Math.random() * phrases.length);
-    client.say(phrases[random])
+    client.say(channel, `Thats ${phrases[random]}`)
 }
