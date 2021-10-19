@@ -1,5 +1,4 @@
 import tmi from 'tmi.js'
-import { BOT_USERNAME, OAUTH_TOKEN } from './constants'
 require ('dotenv').config()
 
 // prefix
