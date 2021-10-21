@@ -12,7 +12,7 @@ const options = {
         username: process.env.BOT_USERNAME,
         password: process.env.OAUTH_TOKEN
     },
-    channels: ["mikoosch", "chefjoi", "99makavelii"]
+    channels: ["mikoosch", "chefjoi"]
 }
 
 const client = new tmi.Client(options)
